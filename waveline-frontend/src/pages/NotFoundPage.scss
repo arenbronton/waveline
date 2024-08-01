@@ -1,0 +1,19 @@
+.notfoundpage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+        color: aqua;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+            filter: brightness(70%);
+        }
+    }
+}
